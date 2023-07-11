@@ -86,3 +86,43 @@ body{
     text-decoration: underline;
     color: #272727;
 }
+/* service style */
+.service-list{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px 120px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.service-item img{
+    width: 88px;
+    height: 88px;
+}
+/* hot deal style */
+.hot-deal{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 0px 240px;
+}
+.hotDeal-text{
+    width: 60%;
+    margin-left: 50px;
+}
+.hotDeal-image{
+    width: 40%;
+}
+/* instagram image section */
+.instagram-image{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
