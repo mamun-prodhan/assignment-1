@@ -7,7 +7,8 @@ body{
     display: flex;
     gap: 100px;
     align-items: center;
-    padding: 200px 240px;
+    justify-content: center;
+    padding: 200px 240px 0px 240px;
     background-color: rgba(229, 84, 115, 0.10);
 }
 .header-title{
@@ -47,8 +48,12 @@ body{
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 48px;
 }
-.flower-container{
-    display: flex;
-    gap: 25px;
+.featured-flower{
     padding: 0px 240px 0px 240px;
+}
+
+.image-text{
+    background-color: #E55473;
+    padding: 110px 70px 0px 70px;
+    border-radius: 300px 300px 0px 0px;
 }
