@@ -11,6 +11,9 @@ body{
     padding: 200px 240px 0px 240px;
     background-color: rgba(229, 84, 115, 0.10);
 }
+/* .header-text{
+    width: 50%;
+} */
 .header-title{
     font-size: 80px;
     font-weight: 800;
@@ -23,6 +26,9 @@ body{
     color: rgba(39, 39, 39, 0.60);
     margin: 32px 0px 32px 0px;
 }
+/* .header-image{
+    width: 50%;
+} */
 .btn-primary{
     background-color: #E55473;
     border-radius: 8px;
@@ -51,9 +57,32 @@ body{
 .featured-flower{
     padding: 0px 240px 0px 240px;
 }
+.flower-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 
-.image-text{
-    background-color: #E55473;
+.image-style{
+    width: 164px;
+    height: 238px;
     padding: 110px 70px 0px 70px;
     border-radius: 300px 300px 0px 0px;
+}
+.img1-bg{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.img2-bg{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.img3-bg{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #272727;
 }
