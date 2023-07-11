@@ -95,7 +95,7 @@ body{
 }
 .service-list{
     display: flex;
-    gap: 25px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
@@ -103,6 +103,9 @@ body{
     margin: 0 auto;
     padding: 40px 120px;
     background-color: rgba(39, 39, 39, 0.05);
+}
+.service-item{
+    text-align: center;
 }
 .service-item img{
     width: 88px;
