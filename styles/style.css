@@ -125,6 +125,43 @@ body{
 .hotDeal-image{
     width: 40%;
 }
+/* review section */
+.review-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 130px 0px 130px 0px;
+    margin-bottom: 130px;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    gap: 40px;
+}
+.single-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+}
+.review-image{
+    width: 80px;
+    height: 80px;
+}
+.name{
+font-size: 20px;
+color: #272727;
+font-weight: 700;
+}
+.full-review{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
 /* instagram image section */
 .instagram{
     margin-bottom: 130px;
